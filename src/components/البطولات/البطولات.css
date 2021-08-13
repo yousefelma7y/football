@@ -1,0 +1,167 @@
+.homepage{
+ 
+  background-image: url("77.jpg");
+   text-align: center; 
+    height: auto;
+   background-size: cover;
+    /* overflow-x: hidden;
+    overflow-y: hidden;
+  width: 100%; 
+  position: relative;
+  top: -4px; */
+  }
+
+.tournament{
+  height:1450px ;
+}
+
+.tournament-name{
+
+    background-color:#05386b ;
+    width: 60%;
+    height: 80px;
+    padding: 10px;
+    margin: 40px;
+    color: white;
+    font-size: 30px;
+    border: solid 1px ;
+   border-radius: 100px;
+}
+.tournament-name:hover {
+    color:#40ca7e;
+  }
+  
+  
+  button.tournament-name:active{
+    transform: scale(.8);
+    transition-duration: 0.5s;
+    color:#40ca7e;
+  }
+
+
+  
+
+  .tournament-reservation-header{
+    background-color: #379683;
+    width: 20%;
+     
+    color: #edf5e1;
+    padding: 10px;
+    position: relative;
+    top: -400px;
+    left: 39%;
+
+  }
+.tournament-form{
+  position: relative;
+  top: -250px;
+  color: white;
+  
+}
+
+
+.warning{
+  color :red ;
+  position: relative;
+  top: -20px;
+  left: 60%;
+}
+
+.tournament-submitt{
+  background-color: #379683;
+  width: 100px;
+  height: 40px;
+  border-width: 0px;
+  border-radius: 20px;
+  color:#fff8f8 ;
+  font-size: 20px;
+}
+.tournament-submitt:hover {
+  color:#05386b;
+}
+.tournament-submitt:active {
+  color:#05386b;
+}
+
+
+.group-a ,.group-b ,.group-c ,.group-d{
+  
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+   
+}
+th ,tr {
+  background-color: #edf5e1;
+}
+
+
+.group-b{
+    position:relative;
+    left: 50%;
+    top: -232px;
+
+}
+.group-c{
+    position:relative;
+  
+    top: -232px;
+
+}
+.group-d{
+    position:relative;
+    left: 50%;
+    top: -464px;
+
+} 
+
+
+@media (max-width:820px ) {
+  .tournament-name{
+   width: 60%;
+   height: 60px;
+  }
+
+
+}
+@media (max-width:600px ) {
+  
+  .tournament-reservation-header{  
+    width: 30%;
+    position: relative;
+    
+    left: 33%;
+  }
+  
+
+}
+@media (max-width:700px ) {
+  .warning{
+
+    position: relative;
+    top: 5px;
+    left: 40%;
+  }
+  .tournament-reservation-header{
+    width: 150px;
+    position: relative;
+    top: -350px;
+    left: 26%;
+  }
+  .group-b{
+    position:relative;
+    left: 50%;
+    top: -241px;
+
+}
+.group-d{
+  position:relative;
+  left: 50%;
+  top: -474px;
+
+} 
+.homepage{  
+  overflow-x: hidden;
+
+}
+}

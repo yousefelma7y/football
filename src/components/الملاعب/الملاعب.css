@@ -1,0 +1,199 @@
+
+.الملاعب{
+ 
+  background-color: #092c4e;
+  text-align: center;
+ 
+}
+
+
+.court-name {
+  
+   background-color:#40ca7e ;
+   width: 40%;
+   height: 80px;
+   padding: 10px;
+   margin: 20px;
+   color: white;
+   font-size: 30px;
+   border: solid 1px ;
+  border-radius: 100px;
+
+}
+
+.court-name:hover {
+  color:#05386b;
+}
+
+
+button.court-name:active{
+  transform: scale(.8);
+  transition-duration: 0.5s;
+  color:#05386b;
+}
+
+.star-table  {
+  border: solid 1px  black; 
+  overflow-x:auto;
+}
+  th, td{
+    border: solid 1px  black; 
+  padding: 10px;
+  }
+.Reservation{
+  text-align: center;
+  height: 800px ;
+  color: black;
+  font-size: 30px;
+  background-image: url("1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.res-container{
+  padding: 10px;
+  border: solid 1px ;
+  height: 700px;
+  width: 70%;
+  position: relative;
+  left: 200px;
+  top: 50px;
+  background-color: #edf5e180;
+  border-radius: 40px;
+  
+}
+
+.reserv{
+  border-radius: 50px;
+  font-size: 25px;
+  color:#267a4c;
+  margin: 20px;
+}
+.courts-selection{
+ 
+  width: 30%;
+  height: 40px;
+  margin: 20px;
+  font-size: 25px;
+  color:#267a4c;
+}
+
+
+.submitt{
+  background-color: #40ca7e;
+  width: 100px;
+  height: 40px;
+  border-width: 0px;
+  border-radius: 20px;
+  color:#fff8f8 ;
+  font-size: 20px;
+
+}
+.submitt:hover {
+  color:#40ca7e;
+}
+.submitt:active {
+  color:#40ca7e;
+}
+.month-day-time{
+  padding: 10px;
+}
+.month-day-time-select{
+  padding: 5px;
+  
+  color: #267a4c;
+}
+
+.reservation-header{
+  background-color: #40ca7e;
+  width: 15%;
+  color: #edf5e1;
+  padding: 10px;
+  
+  position:relative ;
+  top: 20px;
+  left: 42%;
+  border-radius: 10px;
+
+}
+
+  @media (max-width:1050px ){
+    .res-container{    
+      position: relative;
+      left: 130px;
+     
+    }
+    .reservation-header{ 
+      width: 120px;
+      
+    }
+    .Reservation{
+     
+     
+      background-image: url("2.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+   
+  }
+  
+  @media (max-width:820px ) {
+     .court-name{
+      width: 60%;
+      height: 60px;
+     }
+     .الملاعب{
+       text-align: center;
+     }
+     
+     .reservation-header{ 
+       width: 150px;
+       position:relative ;
+        left: 40%;
+     }
+     .res-container{    
+      position: relative;
+      left: 110px;
+     
+    }  
+    .Reservation{
+     
+     
+      background-image: url("3.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+  }
+  @media (max-width:750px ) { 
+
+    .reservation-header{ 
+      width: 150px;
+      position:relative ;
+       left: 38%;
+    }
+
+  } 
+  @media (max-width:700px ) { 
+
+    .reservation-header{ 
+      width: 150px;
+      position:relative ;
+       left: 28%;
+    }
+    .res-container{    
+      position: relative;
+      left: 60px;
+     
+    }
+
+  } 
+
+  @media (max-width:400px ){
+
+    
+    .res-container{    
+      position: relative;
+      left: 12px;
+      width: 85%;
+    }
+  }

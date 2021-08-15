@@ -10,7 +10,7 @@
 .court-name {
   
    background-color:#40ca7e ;
-   width: 40%;
+ 
    height: 80px;
    padding: 10px;
    margin: 20px;
@@ -115,6 +115,17 @@ button.court-name:active{
   border-radius: 10px;
 
 }
+@media (max-width:1600px ){
+    .court-name {
+      width: 45%;
+    } 
+} 
+@media (max-width:1366px ){
+  .court-name {
+    width: 40%;
+  } 
+
+} 
 
   @media (max-width:1050px ){
     .res-container{    

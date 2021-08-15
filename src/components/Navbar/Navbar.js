@@ -10,7 +10,7 @@ function Navbar() {
 
       <div className='navbar'>
           <button className="navbar-brand-navbar-logo" >
-             <FaFutbol/>  دوري الحريف
+              Damanhour Football <FaFutbol/> 
           </button>
          <Navigation/>
         <MobileNavbar/>

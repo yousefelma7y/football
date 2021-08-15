@@ -39,32 +39,44 @@
   }
 
 
-  
+  .tour-container{
+    padding: 10px;
+    border: solid 1px ;
+    height: 700px;
+    width: 70%;
+   position: relative;
+   top: -350px;
+   left: 200px;
+    background-color: #edf5e180;
+    border-radius: 40px;
+    
+  }
 
   .tournament-reservation-header{
     background-color: #379683;
     width: 20%;
-     
+     position: relative;
+     left: 39%;
+     top: 40px;
     color: #edf5e1;
     padding: 10px;
-    position: relative;
-    top: -400px;
-    left: 39%;
-
+   
+      
   }
 .tournament-form{
-  position: relative;
-  top: -250px;
-  color: white;
+ position: relative;
+ top: 100px;
+  color: black;
   
 }
 
 
 .warning{
   color :red ;
+  font-weight: bolder;
   position: relative;
   top: -20px;
-  left: 60%;
+  left: 65%;
 }
 
 .tournament-submitt{
@@ -113,28 +125,51 @@ th ,tr {
     left: 50%;
     top: -464px;
 
-} 
+}
 
+
+
+@media (max-width:1120px ){  
+  .reserv {
+    width: 400px;
+  }
+  .reserv-area {
+    width: 400px;
+  }
+
+  .warning{
+  
+    position: relative;
+    top:30px ;
+    left: 40%;
+  }
+}
+
+@media (max-width:1050px ){
+  .tour-container{    
+    position: relative;
+    left: 130px;
+   
+  }
+ 
+}
 
 @media (max-width:820px ) {
   .tournament-name{
    width: 60%;
    height: 60px;
   }
-
-
-}
-@media (max-width:600px ) {
-  
-  .tournament-reservation-header{  
-    width: 30%;
+  .tour-container{    
     position: relative;
-    
-    left: 33%;
+    left: 110px;
+   
+  } 
+  .tournament-reservation-header{
+    width: 150px;
+    left: 35%;
   }
-  
-
 }
+
 @media (max-width:700px ) {
   .warning{
 
@@ -144,24 +179,87 @@ th ,tr {
   }
   .tournament-reservation-header{
     width: 150px;
-    position: relative;
-    top: -350px;
-    left: 26%;
+    
+    left: 30%;
   }
+  .reserv {
+    width: 300px;
+  }
+  .reserv-area {
+    width: 300px;
+  }
+  .warning{
+  
+    position: relative;
+    top:35px ;
+    left: 40%;
+    font-size: 15px;
+  }
+
+
   .group-b{
     position:relative;
     left: 50%;
-    top: -241px;
+    top: -232px;
 
 }
 .group-d{
   position:relative;
   left: 50%;
-  top: -474px;
+  top: -464px;
 
 } 
 .homepage{  
   overflow-x: hidden;
 
 }
+.tour-container{    
+  position: relative;
+  left: 60px;
+ 
+}
+
+}
+
+
+@media (max-width:600px ) {
+  
+  .tournament-reservation-header{  
+    width: 100px;
+    font-size: 20px;
+    position: relative;
+    
+    left: 33%;
+  }
+  .reserv {
+    width: 200px;
+  }
+  .reserv-area {
+    width: 200px;
+  }
+  .warning{
+  
+    position: relative;
+    top:20px ;
+    left: 27%;
+    font-size: 15px;
+  }
+
+}
+
+
+@media (max-width:400px ){
+
+  .reserv {
+    width: 200px;
+  }
+  .reserv-area {
+    width: 200px;
+  }
+  .tour-container{    
+    position: relative;
+    left: 12px;
+    width: 85%;
+  }
+ 
 }

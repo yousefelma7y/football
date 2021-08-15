@@ -10,6 +10,9 @@ function Reservation()  {
  
    
       return(
+        <div className="tour-container">
+
+        
         <div className="tournament-reservation">
          
          <h3  className="tournament-reservation-header"  >
@@ -29,6 +32,7 @@ function Reservation()  {
                 <textarea name="message" 
                   rows="10" cols="60" 
                   placeholder= 'Enter your message'
+                  className="reserv-area"
                   > 
                 </textarea>
                 <p className="warning"> *علي الاقل 7 لاعبين*</p>
@@ -40,7 +44,7 @@ function Reservation()  {
         
         
         </div>
-    
+    </div>
       ) 
 }
 

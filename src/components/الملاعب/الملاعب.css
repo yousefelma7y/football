@@ -5,19 +5,22 @@
   text-align: center;
  
 }
+.but-container{
+  width: 100%;
+  display: inline-block;
 
+}
 
 .court-name {
-  
-   background-color:#40ca7e ;
- 
-   height: 80px;
-   padding: 10px;
-   margin: 20px;
+
+  background-color:#40ca7e ;
+   width: 40%;
+   height: 60px;
+   margin: 20px 10px;
    color: white;
    font-size: 30px;
    border: solid 1px ;
-  border-radius: 100px;
+  border-radius: 100px; 
 
 }
 
@@ -35,6 +38,7 @@ button.court-name:active{
 .star-table  {
   border: solid 1px  black; 
   overflow-x:auto;
+  width: 100%;
 }
   th, td{
     border: solid 1px  black; 
@@ -115,17 +119,8 @@ button.court-name:active{
   border-radius: 10px;
 
 }
-@media (max-width:1600px ){
-    .court-name {
-      width: 50%;
-    } 
-} 
-@media (max-width:1366px ){
-  .court-name {
-    width: 40%;
-  } 
 
-} 
+
 
   @media (max-width:1050px ){
     .res-container{    

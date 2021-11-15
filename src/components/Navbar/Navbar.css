@@ -16,7 +16,7 @@
 ul {
   display: inline-block;
  
-  float: right;
+  float: right ;
   position: relative;
   top: -15px;
   z-index: 9999;

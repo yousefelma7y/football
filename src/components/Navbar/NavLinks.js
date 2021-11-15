@@ -53,7 +53,7 @@ const NavLinks =(props) =>{
   
                 
   
-                <motion.li 
+                {/* <motion.li 
                 initial ={animateFrom}
                 animate={animateto}
                 transition={{delay:0.20}}
@@ -61,7 +61,7 @@ const NavLinks =(props) =>{
                   <NavLink className="nav-link" to="/الأحصائيات" exact>
                   <IoBarChartSharp/> الأحصائيات
                   </NavLink> 
-                </motion.li>
+                </motion.li> */}
 
                 
                
@@ -69,7 +69,7 @@ const NavLinks =(props) =>{
                 <motion.li 
                 initial ={animateFrom}
                 animate={animateto}
-                transition={{delay:0.40}}
+                transition={{delay:0.40}}npm
                 className="nav-item" onClick={() => props.isMobile && props.closeMobileMenu()}>
                   <NavLink className="nav-link"  to="/contact" exact>
                   <RiContactsBookFill/> Contact Us

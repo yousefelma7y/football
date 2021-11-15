@@ -14,11 +14,13 @@ function الملاعب()  {
    
       return(
         <div className="الملاعب">
-      
-          <StarPark/>
-          <Sansero/>
-          <Sentiago/>
-          <Elsherouk/> 
+           <div className="but-container">
+              <StarPark/>
+              <Sansero/>
+              <Sentiago/>
+              <Elsherouk/> 
+           </div>
+          
           <Reservation/> 
           
          
